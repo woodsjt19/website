@@ -1,5 +1,10 @@
 .indexHeader {
     background-color: blue;
+    height: 20vh;
+    width: 100vw;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
 }
 
 .headerText {
@@ -8,3 +13,8 @@
     padding: 0;
 }
 
+.mainContent {
+    background-color:indigo;
+    height: 80vh;
+    width: 100vw;
+}
