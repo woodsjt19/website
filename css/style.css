@@ -17,4 +17,19 @@
     background-color:indigo;
     height: 80vh;
     width: 100vw;
+    overflow: hidden;
+}
+
+.subHeader {
+    text-align: center;
+    margin-top: 5%;   
+    background-color: white;
+    height: 28.888%;
+    width: 65%;
+}
+
+.subHeader p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
 }
