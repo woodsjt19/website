@@ -33,3 +33,20 @@
     display: inline-block;
     vertical-align: middle;
 }
+
+p {
+    font-size: 1.3rem;
+}
+
+.mainButtons {
+    text-align: center;
+}
+
+.block {
+    width:100%;
+    background-color: white;
+}
+
+.buttons {
+    margin-top: 3%;
+}
