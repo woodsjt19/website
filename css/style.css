@@ -50,3 +50,12 @@ p {
 .buttons {
     margin-top: 3%;
 }
+
+.homebar {
+    background-color: black;
+    height: 100%;
+}
+
+.regPageHeader {
+    height: 100%;
+}
