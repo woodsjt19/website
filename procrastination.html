@@ -4,24 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap css file -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- My css file -->
     <link href="css/main.css" rel="stylesheet">
-    <title>James Site</title> <!-- Title that shows in browser -->
+    <title>Procrastination</title>
 </head>
 <body>
-    <!-- Making the sidebar :) You can ignore alot of this i'll point out the parts you may want to change -->
     <nav class="sidebar navbar navbar-expand d-flex flex-column align-item-start" id="thesidething">
-        <!-- Put content of sidebar here -->
         
-        <!-- Below is just an example -->
         <a href="index.html" class="navbar-brand text-light mt-5">
-            <div class="display-5 font-weight-bold">home</div> <!-- Title that shows in the sidebar change or remove if you want -->
+            <div class="display-5 font-weight-bold">home</div>
         </a>
         <ul class="navbar-nav d-flex flex-column mt-5 w-100">
-            <!-- Here is where you put your links to stuff -->
-
             <!-- buttons -->
             <li class="nav-item w-100">
                 <a href="#" class="nav-link text-light pl-4">BUTTON</a>
@@ -37,10 +30,10 @@
 
     <!--Page Content -->
     <section class="p-4 idkclassname">
-        <!-- Top Navbar -->
-        <nav class="navbar topBar"> <!-- Light theme navbar -->
-            <div class="thingy" id="menu-btn" href="#">button to bring up navbar</div> <!-- Can be changed as long as it has the menu-btn id it should still work -->
-            <h1 class="titlethingy">Study Scheduling</h1>
+        <!-- topbar -->
+        <nav class="navbar topBar">
+            <div class="thingy" id="menu-btn" href="#">button to bring up navbar</div>
+            <h1 class="titlethingy">Dealing with Procrastination</h1>
         </nav>
 
         <!-- Lorem ipsum for filler -->
@@ -54,7 +47,7 @@
                         Suspendisse rutrum tellus vel nulla hendrerit scelerisque. Aliquam eu ligula quis mi dictum accumsan imperdiet nec sapien. Pellentesque neque lacus, elementum ac sapien eget, pretium tristique nunc. Suspendisse et efficitur eros. Nunc justo leo, tincidunt ut eros pretium, condimentum luctus ligula. Fusce ultrices lacus et molestie maximus. Sed leo nulla, ultricies at gravida non, bibendum sed enim. Integer maximus condimentum justo id fringilla. Praesent id aliquam dolor, quis convallis lacus. Donec rutrum diam non nisl condimentum gravida. Nunc imperdiet vulputate purus, nec pellentesque nisi dapibus sed. Phasellus arcu sapien, pretium a luctus quis, vehicula eu lorem.</p>
                 </div>
                 <div class="col-sm-5">
-                    <img class="rounded img-fluid" src="https://www.sessions.edu/wp-content/uploads/1-PJgt-UmbqBXXGiDBL1KG0A.jpeg"/>
+                    <img class="rounded img-fluid" src="https://www.typingpal.com/en/news/lorem-ipsum-the-ultimate-placeholder-text/lorem-ipsum@2x.png"/>
                 </div> 
             </div>
         </div>
@@ -66,14 +59,13 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Custom JS -->
     <script>
-        // Get elements
         var menu_btn = document.querySelector("#menu-btn")
         var sidebar = document.querySelector("#thesidething")
         var main = document.querySelector(".idkclassname")
 
-        menu_btn.addEventListener("click",() => { // when the menu_btn is clicked
-            sidebar.classList.toggle("active-nav") // toggle the .active-nav class (moving the sidebar from -300px left margin to 0px or vice versa)
-            main.classList.toggle("active-idk") // toggle the .active-idk class (moving the maincontent from 0px left margin to 250px or whatever value you have in there)
+        menu_btn.addEventListener("click",() => {
+            sidebar.classList.toggle("active-nav") 
+            main.classList.toggle("active-idk") 
         })
     </script>
 </body>

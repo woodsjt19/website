@@ -1,0 +1,67 @@
+body {
+    background-color: indigo;
+}
+
+.sidebar {
+    width: 250px; 
+    height: 100vh; 
+    position: fixed; 
+    
+    margin-left: -300px; 
+    background-color: blue; 
+    transition: 0.4s; 
+}
+
+.nav-link {
+    font-size: 1.25em;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+    background-color: lightgray;
+}
+
+.dropdown-menu {
+    background-color: darkgray;
+}
+
+.idkclassname {
+    transition: 0.4s; 
+}
+
+/* for navbar */
+.active-nav {
+    margin-left: 0px; 
+}
+
+/* For the main content */
+.active-idk {
+    margin-left: 250px; 
+}
+
+#menu-btn {
+    background-color: #dddddd; 
+    color: white; 
+}
+#menu-btn:focus {
+    background-color: lightpink; 
+}
+
+.topBar {
+    background-color: blue;
+    padding: 0;
+}
+
+.thingy {
+    cursor: pointer;
+    padding: 1%;
+}
+
+.titlethingy {
+    margin-right: 40%;
+}
+
+p {
+    color: white;
+}
