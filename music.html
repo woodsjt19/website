@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/main.css" rel="stylesheet">
+    <title>music</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="sidebar navbar navbar-expand d-flex flex-column align-item-start" id="thesidething">
+        
+        <a href="index.html" class="navbar-brand text-button mt-5">
+            <div class="display-5 font-weight-bold">home</div>
+        </a>
+        <ul class="navbar-nav d-flex flex-column mt-5 w-100">
+            <!-- buttons -->
+            <li class="nav-item w-100">
+                <a href="procrastination.html" class="nav-link text-button pl-4">Avoiding Procrastination</a>
+            </li>
+            <li class="nav-item w-100">
+                <a href="studyschedule.html" class="nav-link text-button pl-4">Study Scheduling</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Page Content -->
+    <section class="p-4 idkclassname">
+        <!-- topbar -->
+        <nav class="navbar topBar">
+            <div class="thingy" id="menu-btn" href="#">button to bring up navbar</div>
+            <h1 class="titlethingy" style="font-family: Patua One;">What music to listen to while studying</h1>
+        </nav>
+
+        <!-- Lorem ipsum for filler -->
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-sm-7">
+                    <p style="font-family: Recursive;">Music can be one of the most important aspects while studying. The genres of music and the intensity of them can make or break a study session (if you listen to music).
+                        <br><br>
+                        Ultimately, the best music is sometimes no music. If you’re in a mood where you could easily be distracted, listening to music can be a bad thing. At the same time, it can improve focus if you actually want to study, and can make boring subjects easier to study for.
+                        <br><br>
+                        While choosing when to listen to music is good, choosing the genre is also important. For instance, lo-fi seems to be seen as a very good study music. I personally never really found it that good for studying, but everyone has their own preferences. I picked two songs that I found were very good for focusing (at least for me), and I embedded them on the right. The upper one is Synthwave, and the lower one is Wave. In my opinion these are some of the best genres to study to. 
+                        <br><br>
+                        When you’re in a rush it’s better to listen to much more intense music, as you won’t be distracted from it and it can put you in a mindset that will help you do work faster. Some dubstep/metalstep can be good for this if you don’t mind the genre. A song usually doesnt’t just have to be fast paced for this sort of cramming music, it also usually has to be aggressive (at least for me) in order for it to really work.</p>
+                </div>
+                <div class="col-sm-5">
+                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/311226887&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/emil-rottmayer" title="Emil Rottmayer" target="_blank" style="color: #cccccc; text-decoration: none;">Emil Rottmayer</a> · <a href="https://soundcloud.com/emil-rottmayer/evade" title="Evade ( Free Download )" target="_blank" style="color: #cccccc; text-decoration: none;">Evade ( Free Download )</a></div>
+                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/910337413&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/dienandt" title="Dienandt" target="_blank" style="color: #cccccc; text-decoration: none;">Dienandt</a> · <a href="https://soundcloud.com/dienandt/orbit" title="Orbit" target="_blank" style="color: #cccccc; text-decoration: none;">Orbit</a></div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script>
+        var menu_btn = document.querySelector("#menu-btn")
+        var sidebar = document.querySelector("#thesidething")
+        var main = document.querySelector(".idkclassname")
+
+        menu_btn.addEventListener("click",() => {
+            sidebar.classList.toggle("active-nav") 
+            main.classList.toggle("active-idk") 
+        })
+    </script>
+</body>
+</html>

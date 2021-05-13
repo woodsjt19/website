@@ -1,5 +1,5 @@
 body {
-    background-color: indigo;
+    background-color: #BFCDE0;
 }
 
 .sidebar {
@@ -8,7 +8,7 @@ body {
     position: fixed; 
     
     margin-left: -300px; 
-    background-color: blue; 
+    background-color: #FEFCFD; 
     transition: 0.4s; 
 }
 
@@ -41,15 +41,15 @@ body {
 }
 
 #menu-btn {
-    background-color: #dddddd; 
-    color: white; 
+    background-color: #FEFCFD; 
+    color: #FEFCFD; 
 }
 #menu-btn:focus {
-    background-color: lightpink; 
+    background-color: #BFCDE0; 
 }
 
 .topBar {
-    background-color: blue;
+    background-color: #BFCDE0;
     padding: 0;
 }
 
@@ -63,5 +63,10 @@ body {
 }
 
 p {
-    color: white;
+    color: #000505;
+}
+
+.text-button {
+    color: #000505;
+    text-align: center;
 }
